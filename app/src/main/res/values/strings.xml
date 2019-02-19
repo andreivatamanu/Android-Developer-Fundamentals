@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Android Developer Fundamentals</string>
+    <string name="email_error_hint">Fill the input with a valid email address</string>
+    <string name="phone_error_hint">Fill the input with a valid phone number</string>
+    <string name="challenge_one">Challenge One</string>
+    <string name="accept_t_and_c"><![CDATA[I accept T&C]]></string>
+    <string name="login">Login</string>
+    <string name="accept_error">Please accept terms and conditions before submit!</string>
+    <string name="enter">Mail is: %1$s\nPhone is: %2$s\nCheckbox status: %3$b</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="i_accept_t_c"><![CDATA[I accept T&C]]></string>
+    <string name="empty" />
+    <string name="submit">submit</string>
+    <string name="challenge_two">Challenge Two</string>
+    <string name="challenge_no_1">Challenge No 1</string>
+    <string name="challenge_no_2">Challenge No 2</string>
+    <string name="challenge_no_3">Challenge No 3</string>
+    <string name="challenge_no_4">Challenge No 4</string>
+    <string name="challenge_no_5">Challenge No 5</string>
+    <string name="email_error">Fill the input with a valid email address</string>
+    <string name="phone_error">Fill the input with a phone number</string>
+    <string name="text_scrollview">ScrollView: A view group that allows the view hierarchy placed within it to be scrolled. Scroll view may have only one direct child placed within it. To add multiple views within the scroll view, make the direct child you add a view group, for example LinearLayout, and place additional views within that LinearLayout.</string>
+    <string name="spinner_example">Spinner Example</string>
+</resources>

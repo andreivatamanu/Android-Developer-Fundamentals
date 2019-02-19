@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/space_16_dp"
+    android:orientation="vertical"
+    tools:context=".challenge1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8_dp"
+        android:text="@string/login"
+        android:textAllCaps="true"
+        android:textColor="@color/light_pink"
+        android:textSize="@dimen/text_size_24_sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8_dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8_dp"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <CheckBox
+        android:id="@+id/checkbox_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8_dp"
+        android:text="@string/i_accept_t_c" />
+
+    <TextView
+        android:id="@+id/checkbox_not"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8_dp"
+        android:text="@string/empty"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size_16_sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:background="@color/colorPrimary"
+        android:onClick="submit"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_view_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:text="@string/empty"
+        android:textSize="@dimen/text_size_16_sp" />
+
+</LinearLayout>

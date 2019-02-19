@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".challenge2">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0_dp"
+        android:layout_marginLeft="@dimen/space_16_dp"
+        android:layout_marginTop="@dimen/space_16_dp"
+        android:layout_marginBottom="@dimen/space_8_dp"
+        android:layout_weight="11">
+
+        <TextView
+            android:id="@+id/figure1"
+            android:layout_width="@dimen/space_64_dp"
+            android:layout_height="@dimen/space_64_dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/orange" />
+
+        <TextView
+            android:id="@+id/figure2"
+            android:layout_width="@dimen/space_77_dp"
+            android:layout_height="@dimen/space_64_dp"
+            android:layout_toRightOf="@id/figure1"
+            android:background="@color/white_gray" />
+
+        <TextView
+            android:id="@+id/figure3"
+            android:layout_width="@dimen/space_64_dp"
+            android:layout_height="@dimen/space_64_dp"
+            android:layout_toRightOf="@id/figure2"
+            android:background="@color/light_green" />
+
+        <TextView
+            android:id="@+id/figure4"
+            android:layout_width="@dimen/space_64_dp"
+            android:layout_height="@dimen/space_64_dp"
+            android:layout_toRightOf="@id/figure3"
+            android:background="@color/dark_green" />
+
+        <TextView
+            android:id="@+id/figure5"
+            android:layout_width="@dimen/space_32_dp"
+            android:layout_height="@dimen/space_54_dp"
+            android:layout_toRightOf="@id/figure4"
+            android:background="@color/white_gray" />
+
+        <TextView
+            android:id="@+id/figure6"
+            android:layout_width="@dimen/space_64_dp"
+            android:layout_height="@dimen/space_64_dp"
+            android:layout_toRightOf="@id/figure5"
+            android:background="@color/light_pink" />
+
+        <TextView
+            android:id="@+id/figure7"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="@dimen/space_8_dp"
+            android:layout_toRightOf="@id/figure6"
+            android:background="@color/white_gray" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/figure1"
+            android:layout_marginTop="@dimen/space_16_dp"
+            android:text="@string/text_scrollview" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_marginTop="@dimen/space_16_dp"
+            android:text="@string/text_scrollview" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_marginTop="@dimen/space_16_dp"
+            android:text="@string/text_scrollview" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="@dimen/space_16_dp"
+            android:text="@string/text_scrollview" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="@dimen/space_16_dp"
+            android:text="@string/text_scrollview" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
